@@ -102,15 +102,15 @@ nodeMenu: {
 chart.load([
   {
     name: 'Kaschif R. Israr',
-    id: 'Country Head',
-    title: 'Country Head',
+    id: 'Managing Director',
+    title: 'Managing Director',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/63.png',
     email: 'Kaschif@eurocentra.com.pk'
   },
   {
     name: 'Holger Fischer',
     id: 'CCO',
-    pid: 'Country Head',
+    pid: 'Managing Director',
     tags: ['partner'],
     title: 'Chief Consulting Officer',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/62.png',
@@ -119,7 +119,7 @@ chart.load([
   {
     name: 'Annika Schwaegerl',
     id: 'SD Euro',
-    pid: 'Country Head',
+    pid: 'Managing Director',
     tags: ['partner'],
     title: 'Sales Director Europe',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/0.png',
@@ -128,7 +128,7 @@ chart.load([
   {
     name: 'Merchandising Team',
     id: 'Business',
-    pid: 'Country Head',
+    pid: 'Managing Director',
     title: '',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/business.png',
     email: '',
@@ -136,7 +136,7 @@ chart.load([
   {
     name: 'Technical Team',
     id: 'Technical',
-    pid: 'Country Head',
+    pid: 'Managing Director',
     title: '',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/tech.png',
     email: ''
@@ -144,7 +144,7 @@ chart.load([
   {
     name: 'Services Team',
     id: 'Services',
-    pid: 'Country Head',
+    pid: 'Managing Director',
     title: '',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/idea.png',
     email: ''
@@ -152,7 +152,7 @@ chart.load([
   {
     name: 'Supply Chain',
     id: 'Supply',
-    pid: 'Country Head',
+    pid: 'Managing Director',
     title: '',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/supply.png',
     email: ''
@@ -160,7 +160,7 @@ chart.load([
   {
     name: 'Operational Support Group (OSG)',
     id: 'OSG',
-    pid: 'Country Head',
+    pid: 'Managing Director',
     title: '',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/osg.png',
     email: ''
@@ -201,7 +201,7 @@ chart.load([
     name: 'Muhammad Umar',
     id: 'Busemp1',
     pid: 'Business',
-    title: 'Division Head - Bonprix',
+    title: 'Division Head - Bonprix Home',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/16.png',
     email: 'Umer@eurocentra.com.pk'
   },
