@@ -104,7 +104,7 @@ chart.load([
     name: 'Kaschif R. Israr',
     id: 'Country Head',
     title: 'Country Head',
-    img: './assets/images/Color/63.png',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/63.png',
     email: 'Kaschif@eurocentra.com.pk'
   },
   {
@@ -113,7 +113,7 @@ chart.load([
     pid: 'Country Head',
     tags: ['partner'],
     title: 'Chief Consulting Officer',
-    img: './assets/images/Color/62.png',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/62.png',
     email: 'fischer@eurocentra.com.pk'
   },
   {
@@ -122,7 +122,7 @@ chart.load([
     pid: 'Country Head',
     tags: ['partner'],
     title: 'Sales Director Europe',
-    img: './assets/images/Color/0.png',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/0.png',
     email: 'annika_schwaegerl@eurocentra.com.hk'
   },
   {
