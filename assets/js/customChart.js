@@ -246,15 +246,7 @@ chart.load([
     email: 'Aamir.abbas@eurocentra.com.pk'
   },
   {
-    name: 'Product Development',
-    id: 'PD',
-    pid: 'Lead2',
-    title: '',
-    img: '',
-    email: ''
-  },
-  {
-    name: '3D Product Innovation',
+    name: '3D Product Innovation / TPD',
     id: '3D',
     pid: 'Lead2',
     title: '',
@@ -286,9 +278,17 @@ chart.load([
     email: ''
   },
   {
+    name: 'Imran Amjad',
+    id: 'Imran Amjad',
+    pid: '3D',
+    title: 'Team Lead 3D',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/25.png',
+    email: 'imran.amjad@eurocentra.com.pk'
+  },
+  {
     name: 'Khizar Hayat',
     id: 'Khizar Hayat',
-    pid: 'PD',
+    pid: 'Imran Amjad',
     title: 'Technical Lead',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/14.png',
     email: 'khizar@eurocentra.com.pk'
@@ -308,14 +308,6 @@ chart.load([
     title: 'Technical Lead',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/23.png',
     email: 'tehreem@eurocentra.com.pk'
-  },
-  {
-    name: 'Imran Amjad',
-    id: 'Imran Amjad',
-    pid: '3D',
-    title: 'Team Lead 3D',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/25.png',
-    email: 'imran.amjad@eurocentra.com.pk'
   },
   {
     name: 'Muhammad Asim',
@@ -382,8 +374,8 @@ chart.load([
     email: ''
   },
   {
-    name: 'Sustainability & CSR',
-    id: 'CSR',
+    name: 'ESG',
+    id: 'ESG',
     pid: 'Zahid Sajjad',
     title: '',
     img: '',
@@ -440,7 +432,7 @@ chart.load([
   {
 
     id: 'Ahmed Adeel',
-    pid: 'CSR',
+    pid: 'ESG',
     name: 'Ahmed Adeel',
     title: 'Sustainability Manager',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/11.png',
@@ -526,32 +518,7 @@ chart.load([
     title: 'Facility Services Manager',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/57.png',
     email: 'abdulmanan@eurocentra.com.pk'
-  },
-  {
-
-    id: 'Pervez Ahmed',
-    pid: 'Abdul Manan',
-    name: 'Pervez Ahmed',
-    title: 'Front Desk officer',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/55.png',
-    email: 'pervez@eurocentra.com.pk'
-  },
-  {
-    id: 'Naeem',
-    pid: 'Pervez Ahmed',
-    name: 'Naeem',
-    title: 'Facility Officer',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/54.png',
-    email: ''
-  },
-  {
-    id: 'Javaid',
-    pid: 'Naeem',
-    name: 'Javaid',
-    title: 'Chauffeur',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/53.png',
-    email: ''
-  },
+  }
 ]);
 
 
