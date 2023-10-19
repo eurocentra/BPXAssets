@@ -201,7 +201,7 @@ chart.load([
     name: 'Muhammad Umar',
     id: 'Busemp1',
     pid: 'Business',
-    title: 'Division Head - Bonprix Home',
+    title: 'Division Head Bonprix - Home',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/16.png',
     email: 'Umer@eurocentra.com.pk'
   },
@@ -217,7 +217,7 @@ chart.load([
     name: 'Abdul Hafeez',
     id: 'Busemp3',
     pid: 'Business',
-    title: 'Division Head Bonprix-Woven',
+    title: 'Division Head Bonprix - Woven',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/17.png',
     email: 'abdul.hafeez@eurocentra.com.pk'
   },
@@ -225,7 +225,7 @@ chart.load([
     name: 'TBH',
     id: 'Busemp4',
     pid: 'Business',
-    title: 'Division Head Non-Textile / Footwear',
+    title: 'Division Head Bonprix - Footwear',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/no-image.png',
     email: ''
   },
