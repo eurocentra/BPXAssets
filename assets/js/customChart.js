@@ -72,6 +72,22 @@ var chart = new OrgChart(document.getElementById('tree'), {
   toolbar: {
     zoom: true,
   },
+  menu: {
+    pdfPreview: {
+        text: "PDF Preview",
+        icon: OrgChart.icon.pdf(24, 24, '#7A7A7A'),
+        onClick: preview
+    },
+    pdf: { text: "Export PDF" },
+    png: { text: "Export PNG" },
+    svg: { text: "Export SVG" },
+    csv: { text: "Export CSV" }
+},
+nodeMenu: {
+    pdf: { text: "Export PDF" },
+    png: { text: "Export PNG" },
+    svg: { text: "Export SVG" }
+},
   enableSearch: false,
   template: "myTemplate",
   nodeBinding: {
@@ -83,31 +99,34 @@ var chart = new OrgChart(document.getElementById('tree'), {
 });
 
 
-
 chart.load([
-  {
-    name: 'Annika Schwaegerl',
-    id: 'SD Euro',
-    title: 'Sales Director Europe',
-    img: './assets/images/Color/0.png',
-    email: 'annika_schwaegerl@eurocentra.com.hk'
-  },
   {
     name: 'Kaschif R. Israr',
     id: 'Country Head',
     title: 'Country Head',
-    img: './assets/images/Color/1.png',
+    img: './assets/images/Color/63.png',
     email: 'Kaschif@eurocentra.com.pk'
   },
   {
     name: 'Holger Fischer',
     id: 'CCO',
+    pid: 'Country Head',
+    tags: ['partner'],
     title: 'Chief Consulting Officer',
     img: './assets/images/Color/62.png',
     email: 'fischer@eurocentra.com.pk'
   },
   {
-    name: 'Business Team',
+    name: 'Annika Schwaegerl',
+    id: 'SD Euro',
+    pid: 'Country Head',
+    tags: ['partner'],
+    title: 'Sales Director Europe',
+    img: './assets/images/Color/0.png',
+    email: 'annika_schwaegerl@eurocentra.com.hk'
+  },
+  {
+    name: 'Merchandising Team',
     id: 'Business',
     pid: 'Country Head',
     title: '',
@@ -166,7 +185,7 @@ chart.load([
     name: 'Abdul Saboor',
     id: 'Lead4',
     pid: 'Supply',
-    title: 'Head of Supply Chain',
+    title: 'Head of Stretegic sourcing & Supply Chain Tranparency',
     img: './assets/images/Color/4.png',
     email: 'abdul.saboor@eurocentra.com.pk'
   },
@@ -179,8 +198,16 @@ chart.load([
     email: 'Madni@eurocentra.com.pk'
   },
   {
-    name: 'Umair Ahmed Siddiqui',
+    name: 'Muhammad Umar',
     id: 'Busemp1',
+    pid: 'Business',
+    title: 'Division Head - Bonprix',
+    img: './assets/images/Color/16.png',
+    email: 'Umer@eurocentra.com.pk'
+  },
+  {
+    name: 'Umair Ahmed Siddiqui',
+    id: 'Busemp2',
     pid: 'Business',
     title: 'Division Head Bonprix - Knits',
     img: './assets/images/Color/15.png',
@@ -188,32 +215,32 @@ chart.load([
   },
   {
     name: 'Abdul Hafeez',
-    id: 'Busemp2',
+    id: 'Busemp3',
     pid: 'Business',
     title: 'Division Head Bonprix-Woven',
     img: './assets/images/Color/17.png',
     email: 'abdul.hafeez@eurocentra.com.pk'
   },
   {
-    name: 'Muhammad Umar',
-    id: 'Busemp3',
+    name: 'TBH',
+    id: 'Busemp4',
     pid: 'Business',
-    title: 'Division Head - Bonprix / Limango',
-    img: './assets/images/Color/16.png',
-    email: 'Umer@eurocentra.com.pk'
+    title: 'Division Head Non-Textile / Footwear',
+    img: './assets/images/Color/no-image.png',
+    email: ''
   },
   {
     name: 'Kashif Younus',
-    id: 'Busemp4',
-    pid: 'Busemp1',
+    id: 'Busemp5',
+    pid: 'Busemp2',
     title: 'Deputy Merchandising Manager',
     img: './assets/images/Color/21.png',
     email: 'Kashif.younus@eurocentra.com.pk'
   },
   {
     name: 'Syed Amir Abbas',
-    id: 'Busemp5',
-    pid: 'Busemp2',
+    id: 'Busemp6',
+    pid: 'Busemp3',
     title: 'Deputy Merchandising Manager',
     img:
       './assets/images/Color/22.png',
@@ -349,7 +376,7 @@ chart.load([
     email: 'ismail@eurocentra.com.pk'
   },
   {
-    name: 'Digitalization Asset Management',
+    name: 'MIS',
     id: 'DAM',
     pid: 'Zahid Sajjad',
     title: '',
@@ -381,7 +408,7 @@ chart.load([
     email: ''
   },
   {
-    name: 'Human Asset Management',
+    name: 'Human Resource',
     id: 'HAM',
     pid: 'Zahid Sajjad',
     title: '',
@@ -472,7 +499,7 @@ chart.load([
     id: 'TBH',
     pid: 'HAM',
     name: 'TBH',
-    title: 'Happiness Officer',
+    title: 'HR Manager',
     img: './assets/images/Color/no-image.png',
     email: ''
   },
@@ -535,3 +562,9 @@ document.getElementById('editForm').addEventListener('click', function (e) {
   e.preventDefault();
   chart.editUI.hide();
 })
+
+function preview() {
+  OrgChart.pdfPrevUI.show(chart, {
+      format: 'A4'
+  });
+}
