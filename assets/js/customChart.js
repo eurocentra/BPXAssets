@@ -341,6 +341,14 @@ chart.load([
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/32.png',
     email: 'shahzad-eurocentra@outlook.com'
   },
+    {
+    name: 'Syed Zahid Ali',
+    id: 'Syed Zahid Ali',
+    pid: 'Shahzad Ansari',
+    title: 'Quality Lead',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Syed Zahid Ali.png',
+    email: ''
+  },
   {
     name: 'Dania Jamil',
     id: 'Dania Jamil',
@@ -491,17 +499,8 @@ chart.load([
     email: ''
   },
   {
-
-    id: 'TBH',
-    pid: 'HAM',
-    name: 'TBH',
-    title: 'HR Manager',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/no-image.png',
-    email: ''
-  },
-  {
     id: 'Muhammad Safwan Khan',
-    pid: 'TBH',
+    pid: 'HAM',
     name: 'Muhammad Safwan Khan',
     title: 'HR Excutive',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/6.png',
