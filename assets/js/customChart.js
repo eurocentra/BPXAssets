@@ -158,6 +158,14 @@ chart.load([
     email: ''
   },
   {
+    name: '3D Product Innovation / TPD',
+    id: '3D',
+    pid: 'Managing Director',
+    title: '',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/idea.png',
+    email: ''
+  },
+  {
     name: 'Operational Support Group (OSG)',
     id: 'OSG',
     pid: 'Managing Director',
@@ -186,7 +194,7 @@ chart.load([
     id: 'Lead4',
     pid: 'Supply',
     title: 'Head of Stretegic sourcing & Supply Chain Tranparency',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/4.png',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Abdul_Saboor.png',
     email: 'abdul.saboor@eurocentra.com.pk'
   },
   {
@@ -206,12 +214,12 @@ chart.load([
     email: 'Umer@eurocentra.com.pk'
   },
   {
-    name: 'Umair Ahmed Siddiqui',
+    name: 'Kamran Saleem',
     id: 'Busemp2',
     pid: 'Business',
-    title: 'Division Head Bonprix - Knits',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/15.png',
-    email: 'Umair@eurocentra.com.pk'
+    title: 'Business Manager',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Kamran Saleem.png',
+    email: ''
   },
   {
     name: 'Abdul Hafeez',
@@ -222,11 +230,11 @@ chart.load([
     email: 'abdul.hafeez@eurocentra.com.pk'
   },
   {
-    name: 'TBH',
+    name: 'Bahrooz Ali Hashmi',
     id: 'Busemp4',
     pid: 'Business',
-    title: 'Division Head Bonprix - Footwear',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/no-image.png',
+    title: 'Business Manager',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Bahrooz Ali Hashmi.png',
     email: ''
   },
   {
@@ -244,14 +252,6 @@ chart.load([
     title: 'Deputy Merchandising Manager',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/22.png',
     email: 'Aamir.abbas@eurocentra.com.pk'
-  },
-  {
-    name: '3D Product Innovation / TPD',
-    id: '3D',
-    pid: 'Lead2',
-    title: '',
-    img: '',
-    email: ''
   },
   {
     name: 'Quality Development',
@@ -346,7 +346,7 @@ chart.load([
     id: 'Dania Jamil',
     pid: 'TT',
     title: 'Testing Manager',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/31.png',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Dania Jamil.png',
     email: 'dania@eurocentra.com.pk'
   },
   {
@@ -410,7 +410,7 @@ chart.load([
     id: 'Muhammad Aamir',
     pid: 'DAM',
     title: 'MIS Manager',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/9.png',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Aamir Sami.png',
     email: 'aamir@eurocentra.com.pk'
   },
   {
@@ -424,8 +424,8 @@ chart.load([
   {
     name: 'Muhammad Noman',
     id: 'Muhammad Noman',
-    pid: 'Sadad Ali',
-    title: 'Excellence Manager',
+    pid: 'Muhammad Aamir',
+    title: 'Quality Executive',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/8.png',
     email: 'Noman@eurocentra.com.pk'
   },
@@ -441,7 +441,6 @@ chart.load([
   {
 
     id: 'Basit Ali',
-
     pid: 'Ahmed Adeel',
     name: 'Basit Ali',
     title: 'CSR Executive',
@@ -452,7 +451,7 @@ chart.load([
 
     id: 'Jameel Ahmed',
     name: 'Jameel Ahmed',
-    pid: 'Basit Ali',
+    pid: 'Ahmed Adeel',
     title: 'Project Manager',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/10.png',
     email: 'Jameel@eurocentra.com.pk'
@@ -463,7 +462,7 @@ chart.load([
     pid: 'Logistics',
     name: 'Grephen Almas',
     title: 'Logistics Manager',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/12.png',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Grephen Almas.png',
     email: 'grephen@eurocentra.com.pk'
   },
   {
@@ -476,12 +475,19 @@ chart.load([
     email: 'Mehreen@eurocentra.com.pk'
   },
   {
-
+    name: 'Sikandar Solangi',
     id: 'Sikandar Solangi',
     pid: 'PL',
-    name: 'Sikandar Solangi',
+    title: 'Librarian Incharge',
+    img: 'https://eurocentra.github.io/El-Corte-Ingles/assets/images/Color/Sikandar Ali.png',
+    email: ''
+  },
+  {
+    name: 'Shahriyar Ahmed',
+    id: 'Shahriyar Ahmed',
+    pid: 'Sikandar Solangi',
     title: 'Librarian',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/60.png',
+    img: 'https://eurocentra.github.io/El-Corte-Ingles/assets/images/Color/Shahriyar Ahmed.png',
     email: ''
   },
   {
@@ -497,23 +503,37 @@ chart.load([
     id: 'Muhammad Safwan Khan',
     pid: 'TBH',
     name: 'Muhammad Safwan Khan',
-    title: 'Working Student',
+    title: 'HR Excutive',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/6.png',
     email: 'hr@eurocentra.com.pk'
+  },
+  {
+    name: 'Rashna Munawar',
+    id: 'Rashna Munawar',
+    pid: 'Lead4',
+    title: 'Sourcing Executive',
+    img: 'https://eurocentra.github.io/El-Corte-Ingles/assets/images/Color/Rashna Munawar.png',
+  },
+  {
+    name: 'Absar Ali',
+    id: 'Absar Ali',
+    pid: 'Lead4',
+    title: 'Sourcing Executive',
+    img: 'https://eurocentra.github.io/El-Corte-Ingles/assets/images/Color/Muhammad Absar Ali-1.png',
   },
   {
 
     id: 'Sajjad Hussain',
     pid: 'Lead5',
     name: 'Sajjad Hussain',
-    title: 'IT & Communication Manager',
+    title: 'Associate Finance & IT Manager',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/56.png',
     email: 'it@eurocentra.com.pk'
   },
   {
 
     id: 'Abdul Manan',
-    pid: 'Sajjad Hussain',
+    pid: 'Lead5',
     name: 'Abdul Manan',
     title: 'Facility Services Manager',
     img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/57.png',
