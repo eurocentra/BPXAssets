@@ -278,36 +278,32 @@ chart.load([
     email: ''
   },
   {
+    name: 'Amna Minhas',
+    id: 'Amna Minhas',
+    pid: '3D',
+    title: 'Division Head Digitalization & Browzwear',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Amna Photo.png',
+  },
+  {
     name: 'Imran Amjad',
     id: 'Imran Amjad',
-    pid: '3D',
-    title: 'Team Lead 3D',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/25.png',
-    email: 'imran.amjad@eurocentra.com.pk'
+    pid: 'Amna Minhas',
+    title: '3D Team Lead',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Imran_Amjad.png',
   },
   {
-    name: 'Khizar Hayat',
-    id: 'Khizar Hayat',
+    name: 'Hassan Hussain',
+    id: 'Hassan Hussain',
     pid: 'Imran Amjad',
-    title: 'Technical Lead',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/14.png',
-    email: 'khizar@eurocentra.com.pk'
+    title: '3D Product Developer',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Hassan Hussain.png',
   },
   {
-    name: 'Muhammad Zeeshan',
-    id: 'Muhammad Zeeshan',
-    pid: 'Khizar Hayat',
-    title: 'Technical Lead',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/26.png',
-    email: 'M.zeeshan@eurocentra.com.pk'
-  },
-  {
-    name: 'Muhammad Tahreem',
-    id: 'Muhammad Tahreem',
-    pid: 'Muhammad Zeeshan',
-    title: 'Technical Lead',
-    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/23.png',
-    email: 'tehreem@eurocentra.com.pk'
+    name: 'Sana Zahid',
+    id: 'Sana Zahid',
+    pid: 'Imran Amjad',
+    title: '3D Product Developer',
+    img: 'https://eurocentra.github.io/BPXAssets/assets/images/Color/Sana Zahid.png',
   },
   {
     name: 'Muhammad Asim',
